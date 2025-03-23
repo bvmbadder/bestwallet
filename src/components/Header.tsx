@@ -189,13 +189,13 @@ const Header = () => {
       <div className="fixed top-0 left-0 right-0 z-10 bg-[#5a63ff]/70 backdrop-blur-sm">
         <div className="container mx-auto pt-4 w-full">
           <div className="flex flex-row justify-between items-center px-2 lg:px-10">
-            <div className="">
+            <Link to="/" className="">
               <img
                 src={logo}
                 className="w-[150px] lg:w-[201px] h-[40px] lg:h-[57px]"
                 alt="logo"
               />
-            </div>
+            </Link>
             <div className="flex flex-row items-center gap-4">
               <div className="hidden lg:flex flex-row gap-6 text-white items-center font-semibold">
                 {navLinks.map((link) => (
